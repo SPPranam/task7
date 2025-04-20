@@ -4,7 +4,8 @@
 Visualize system and app performance metrics using Netdata in Docker.
 
 ## Netdata Dashboard
-![Netdata Dashboard](netdata-dashboard.png)
+![Netdata Dashboard]
+<img width="1470" alt="netdata-dashboard" src="https://github.com/user-attachments/assets/4706ff31-7a21-47a2-9a3f-f67afeb28fff" />
 
 ## Access URL
 http://localhost:19999
@@ -27,4 +28,6 @@ docker run -d --name=netdata -p 19999:19999 --cap-add=SYS_PTRACE \
   -v /sys:/host/sys:ro \
   -v /etc/os-release:/host/etc/os-release:ro \
   netdata/netdata
+
+
 
